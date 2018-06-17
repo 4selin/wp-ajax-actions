@@ -1,0 +1,30 @@
+
+.osp_ajax_form{
+  border:1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px 0;
+
+  .title{
+    font-size: 1em;
+    font-weight: bold;
+    // margin: 0 0 10px 0;
+  }
+  .cont{
+    padding: 10px 0 0 0;
+  }
+  .toggle{
+    display: none;
+    color: #074fc1;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &.collapsed{
+    .toggle{
+      display: inline;
+    }
+    .cont{
+      display: none;
+    }
+  }
+}
