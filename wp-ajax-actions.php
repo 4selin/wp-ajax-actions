@@ -5,7 +5,7 @@ Plugin URI: https://github.com/4selin/wp-ajax-actions
 Description:
 Author: Алексей Селин
 Author URI:
-Version: 0.1.0
+Version: 0.1.1
  */
 
 // 15c1e510f282aebdff00670c96f762710e4c89a1

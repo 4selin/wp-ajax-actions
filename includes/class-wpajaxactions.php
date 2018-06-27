@@ -76,7 +76,7 @@ class WPAA {
 
 		$collapsed = $config['collapsed'] ?? '';
 		?>
-        <div class="osp_ajax_form <?= $collapsed ?>" id="<?= $form_id ?>">
+        <div class="wpaa_form <?= $collapsed ?>" id="<?= $form_id ?>">
             <form>
                 <input type="hidden" name="_ajax_nonce" value="<?= wp_create_nonce( $this->nonce_action ) ?>">
 

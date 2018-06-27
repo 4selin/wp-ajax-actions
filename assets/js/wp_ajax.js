@@ -4,7 +4,7 @@ jQuery(function ($) {
         e.preventDefault();
 
         var submit_ajax_form = $(this);
-        var ajax_form = $(this).closest('.osp_ajax_form');
+        var ajax_form = $(this).closest('.wpaa_form');
 
         var result_cont;
         var result_cont_name = $(this).find("input[name='result_cont']").val();
@@ -61,8 +61,8 @@ jQuery(function ($) {
 
     });
 
-    $('body').on('click', '.osp_ajax_form .clear', function () {
-        var ajax_form = $(this).closest('.osp_ajax_form');
+    $('body').on('click', '.wpaa_form .clear', function () {
+        var ajax_form = $(this).closest('.wpaa_form');
         var result_cont = ajax_form.find('.result');
         result_cont.empty();
     });

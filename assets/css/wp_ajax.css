@@ -1,25 +1,26 @@
-.osp_ajax_form {
+.wpaa_form {
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 5px;
   margin: 5px 0;
 }
-.osp_ajax_form .title {
+.wpaa_form .title {
   font-size: 1em;
   font-weight: bold;
 }
-.osp_ajax_form .cont {
+.wpaa_form .cont {
   padding: 10px 0 0 0;
 }
-.osp_ajax_form .toggle {
+.wpaa_form .toggle {
   display: none;
   color: #074fc1;
   text-decoration: underline;
   cursor: pointer;
 }
-.osp_ajax_form.collapsed .toggle {
+.wpaa_form.collapsed .toggle {
   display: inline;
 }
-.osp_ajax_form.collapsed .cont {
+.wpaa_form.collapsed .cont {
   display: none;
 }
+/*# sourceMappingURL=wp_ajax.css.map */
