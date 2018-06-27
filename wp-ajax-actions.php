@@ -10,7 +10,7 @@ Version: 0.1.1
 
 // 15c1e510f282aebdff00670c96f762710e4c89a1
 
-define( 'WPAA_VER', '0.1.0' );
+define( 'WPAA_VER', '0.1.1' );
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
