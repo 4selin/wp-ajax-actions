@@ -108,7 +108,7 @@ class WPAA {
 					?>
 
                     <div>
-                        <input type="submit" class="submit_ajax_form" value="отправить" form="<?= $form_id ?>"/>
+                        <input type="submit" class="submit_wpaa_form" value="отправить" form="<?= $form_id ?>"/>
                         <!--                    <input type="button" class="clear" value="очистить">-->
                         <span class="osp_ajax spinner"></span>
                     </div>

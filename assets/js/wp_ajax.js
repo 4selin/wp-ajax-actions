@@ -1,9 +1,9 @@
 jQuery(function ($) {
 
-    $('body').on('click','.submit_ajax_form', function (e) {
+    $('body').on('click','.submit_wpaa_form', function (e) {
         e.preventDefault();
 
-        var submit_ajax_form = $(this);
+        var submit_wpaa_form = $(this);
         var ajax_form = $(this).closest('.wpaa_form');
 
         var result_cont;
@@ -53,7 +53,7 @@ jQuery(function ($) {
                 spinner.removeClass('is-active');
 
                 if (ajax_form.find('input[name="loop"]').val() == '1') {
-                    submit_ajax_form.click();
+                    submit_wpaa_form.click();
                 }
 
             }
